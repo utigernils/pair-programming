@@ -1,2 +1,6 @@
-export const roots = ["src"];
-export const transform = { "^.+\\.tsx?$": "ts-jest" };
+module.exports = {
+    roots: ["src"],
+    transform: {
+        "^.+\.tsx?$": "ts-jest",
+    },
+};
